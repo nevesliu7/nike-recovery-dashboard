@@ -1,0 +1,49 @@
+quarter,region,product,revenue_m,prior_year_revenue_m,reported_change_pct,currency_neutral_change_pct
+FY26 Q1,North America,Footwear,3219,3212,0,0
+FY26 Q1,North America,Apparel,1474,1331,11,11
+FY26 Q1,North America,Equipment,327,283,16,16
+FY26 Q1,North America,Total,5020,4826,4,4
+FY26 Q1,"Europe, Middle East & Africa",Footwear,2021,1952,4,-2
+FY26 Q1,"Europe, Middle East & Africa",Apparel,1106,993,11,6
+FY26 Q1,"Europe, Middle East & Africa",Equipment,204,198,3,-2
+FY26 Q1,"Europe, Middle East & Africa",Total,3331,3143,6,1
+FY26 Q1,Greater China,Footwear,1109,1246,-11,-12
+FY26 Q1,Greater China,Apparel,362,360,1,0
+FY26 Q1,Greater China,Equipment,41,60,-32,-33
+FY26 Q1,Greater China,Total,1512,1666,-9,-10
+FY26 Q1,Asia Pacific & Latin America,Footwear,1061,1052,1,0
+FY26 Q1,Asia Pacific & Latin America,Apparel,371,348,7,5
+FY26 Q1,Asia Pacific & Latin America,Equipment,58,62,-6,-7
+FY26 Q1,Asia Pacific & Latin America,Total,1490,1462,2,1
+FY26 Q2,North America,Footwear,3542,3236,9,9
+FY26 Q2,North America,Apparel,1811,1693,7,7
+FY26 Q2,North America,Equipment,280,250,12,12
+FY26 Q2,North America,Total,5633,5179,9,9
+FY26 Q2,"Europe, Middle East & Africa",Footwear,2012,1982,2,-2
+FY26 Q2,"Europe, Middle East & Africa",Apparel,1196,1136,5,1
+FY26 Q2,"Europe, Middle East & Africa",Equipment,184,185,-1,-5
+FY26 Q2,"Europe, Middle East & Africa",Total,3392,3303,3,-1
+FY26 Q2,Greater China,Footwear,954,1203,-21,-20
+FY26 Q2,Greater China,Apparel,442,472,-6,-6
+FY26 Q2,Greater China,Equipment,27,36,-25,-24
+FY26 Q2,Greater China,Total,1423,1711,-17,-16
+FY26 Q2,Asia Pacific & Latin America,Footwear,1151,1234,-7,-7
+FY26 Q2,Asia Pacific & Latin America,Apparel,457,437,5,6
+FY26 Q2,Asia Pacific & Latin America,Equipment,59,73,-19,-18
+FY26 Q2,Asia Pacific & Latin America,Total,1667,1744,-4,-4
+FY26 Q3,North America,Footwear,3326,3132,6,6
+FY26 Q3,North America,Apparel,1480,1510,-2,-2
+FY26 Q3,North America,Equipment,220,222,-1,-1
+FY26 Q3,North America,Total,5026,4864,3,3
+FY26 Q3,"Europe, Middle East & Africa",Footwear,1789,1742,3,-7
+FY26 Q3,"Europe, Middle East & Africa",Apparel,926,913,1,-8
+FY26 Q3,"Europe, Middle East & Africa",Equipment,159,156,2,-8
+FY26 Q3,"Europe, Middle East & Africa",Total,2874,2811,2,-7
+FY26 Q3,Greater China,Footwear,1187,1282,-7,-10
+FY26 Q3,Greater China,Apparel,397,412,-4,-7
+FY26 Q3,Greater China,Equipment,31,39,-21,-22
+FY26 Q3,Greater China,Total,1615,1733,-7,-10
+FY26 Q3,Asia Pacific & Latin America,Footwear,1051,1052,0,-3
+FY26 Q3,Asia Pacific & Latin America,Apparel,381,358,6,4
+FY26 Q3,Asia Pacific & Latin America,Equipment,58,60,-3,-7
+FY26 Q3,Asia Pacific & Latin America,Total,1490,1470,1,-2

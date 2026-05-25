@@ -1,0 +1,4 @@
+platform,handle,date,audience_m,scale_metric_m,scale_metric_label,content_count,source,source_url
+Instagram,@nike,2026-05-25,292.018934,292.018934,followers,1630,AltIndex Instagram followers; PostWithProof post count,https://altindex.com/ticker/nke/instagram-followers
+TikTok,@nike,2026-05-25,8.5,43.5,likes,1075,Social Blade TikTok public profile snapshot,https://socialblade.com/tiktok/user/nike
+YouTube,Nike,2026-03-25,2.22,392.3,lifetime views,627,HunterTuber YouTube analytics snapshot,https://huntertuber.com/UCUFgkRb0ZHc4Rpq15VRCICA
