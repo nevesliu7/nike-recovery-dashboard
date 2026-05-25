@@ -142,38 +142,84 @@ h1 {
   accent-color: var(--volt);
 }
 
+.dark-dropdown,
+.dark-dropdown .Select,
+.dark-dropdown .Select-control,
+.dark-dropdown .Select-multi-value-wrapper {
+  background: #10100f !important;
+  color: var(--text) !important;
+}
+
 .dark-dropdown .Select-control {
-  min-height: 40px;
-  border: 1px solid var(--line);
+  min-height: 42px;
+  border: 1px solid rgba(244, 244, 240, 0.42) !important;
   border-radius: 8px;
-  background-color: #111111;
+  box-shadow: 0 0 0 1px rgba(200, 255, 0, 0.06) inset !important;
 }
 
 .dark-dropdown.small .Select-control {
-  min-height: 34px;
+  min-height: 36px;
 }
 
+.dark-dropdown .Select-control:hover,
+.dark-dropdown.is-focused .Select-control,
+.dark-dropdown .is-focused .Select-control {
+  border-color: rgba(200, 255, 0, 0.82) !important;
+  box-shadow: 0 0 0 2px rgba(200, 255, 0, 0.22) !important;
+}
+
+.dark-dropdown .Select-placeholder {
+  color: #a9ada0 !important;
+}
+
+.dark-dropdown .Select-value,
 .dark-dropdown .Select-value-label,
-.dark-dropdown .Select-placeholder,
 .dark-dropdown .Select-input,
+.dark-dropdown .Select-input > input,
 .dark-dropdown .Select--multi .Select-value-label {
   color: var(--text) !important;
 }
 
-.dark-dropdown .Select-menu-outer,
-.dark-dropdown .VirtualizedSelectOption {
-  background: #111111;
-  color: var(--text);
-}
-
-.dark-dropdown .VirtualizedSelectFocusedOption {
-  background: #252525;
-}
-
 .dark-dropdown .Select--multi .Select-value {
-  border-color: rgba(200, 255, 0, 0.55);
-  background: rgba(200, 255, 0, 0.12);
-  color: var(--text);
+  border: 1px solid rgba(200, 255, 0, 0.64) !important;
+  border-radius: 6px !important;
+  background: rgba(200, 255, 0, 0.16) !important;
+}
+
+.dark-dropdown .Select--multi .Select-value-icon {
+  border-right: 1px solid rgba(200, 255, 0, 0.30) !important;
+  color: var(--volt) !important;
+}
+
+.dark-dropdown .Select-arrow {
+  border-color: var(--text) transparent transparent !important;
+}
+
+.dark-dropdown.is-open .Select-arrow,
+.dark-dropdown .is-open .Select-arrow {
+  border-color: transparent transparent var(--text) !important;
+}
+
+.dark-dropdown .Select-menu-outer,
+.dark-dropdown .Select-menu,
+.dark-dropdown .VirtualizedSelectOption {
+  background: #f7f7f2 !important;
+  color: #111111 !important;
+}
+
+.dark-dropdown .Select-menu-outer {
+  border: 1px solid rgba(200, 255, 0, 0.70) !important;
+  border-radius: 8px !important;
+  box-shadow: 0 20px 46px rgba(0, 0, 0, 0.45) !important;
+  overflow: hidden;
+  z-index: 1000 !important;
+}
+
+.dark-dropdown .VirtualizedSelectFocusedOption,
+.dark-dropdown .VirtualizedSelectSelectedOption {
+  background: #e4ffd4 !important;
+  color: #111111 !important;
+  font-weight: 800;
 }
 
 .kpi-row {
