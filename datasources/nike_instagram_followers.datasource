@@ -1,0 +1,11 @@
+DESCRIPTION >
+    Generated from /Users/thestar/Documents/Codex/2026-05-25/for-your-final-project-you-will/data/nike_instagram_followers.csv
+
+SCHEMA >
+    `month` Date,
+    `followers` Int64
+
+ENGINE "MergeTree"
+ENGINE_SORTING_KEY "month"
+# ENGINE_TTL "timestamp + toIntervalDay(60)"
+# Learn more at https://www.tinybird.co/docs/forward/dev-reference/datafiles/datasource-files

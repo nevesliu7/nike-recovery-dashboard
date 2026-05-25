@@ -1,0 +1,16 @@
+DESCRIPTION >
+    Generated from /Users/thestar/Documents/Codex/2026-05-25/for-your-final-project-you-will/data/nike_divisional_revenue.csv
+
+SCHEMA >
+    `quarter` String,
+    `region` String,
+    `product` String,
+    `revenue_m` Int32,
+    `prior_year_revenue_m` Int32,
+    `reported_change_pct` Int16,
+    `currency_neutral_change_pct` Int16
+
+ENGINE "MergeTree"
+ENGINE_SORTING_KEY "quarter, region, product"
+# ENGINE_TTL "timestamp + toIntervalDay(60)"
+# Learn more at https://www.tinybird.co/docs/forward/dev-reference/datafiles/datasource-files

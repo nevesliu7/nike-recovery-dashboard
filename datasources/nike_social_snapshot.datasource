@@ -1,0 +1,18 @@
+DESCRIPTION >
+    Generated from /Users/thestar/Documents/Codex/2026-05-25/for-your-final-project-you-will/data/nike_social_snapshot.csv
+
+SCHEMA >
+    `platform` String,
+    `handle` String,
+    `date` Date,
+    `audience_m` Float32,
+    `scale_metric_m` Float32,
+    `scale_metric_label` String,
+    `content_count` Int32,
+    `source` String,
+    `source_url` String
+
+ENGINE "MergeTree"
+ENGINE_SORTING_KEY "platform"
+# ENGINE_TTL "timestamp + toIntervalDay(60)"
+# Learn more at https://www.tinybird.co/docs/forward/dev-reference/datafiles/datasource-files

@@ -1,0 +1,36 @@
+DESCRIPTION >
+    Generated from /Users/thestar/Documents/Codex/2026-05-25/for-your-final-project-you-will/data/nike_quarterly_metrics.csv
+
+SCHEMA >
+    `quarter` String,
+    `period_end` Date,
+    `release_date` Date,
+    `total_revenue_m` Int32,
+    `reported_revenue_change_pct` Int16,
+    `currency_neutral_revenue_change_pct` Int16,
+    `nike_brand_revenue_m` Int32,
+    `nike_brand_reported_change_pct` Int16,
+    `nike_brand_cn_change_pct` Int16,
+    `wholesale_revenue_m` Int32,
+    `wholesale_reported_change_pct` Int16,
+    `wholesale_cn_change_pct` Int16,
+    `direct_revenue_m` Int32,
+    `direct_reported_change_pct` Int16,
+    `direct_cn_change_pct` Int16,
+    `converse_revenue_m` Int32,
+    `converse_reported_change_pct` Int16,
+    `converse_cn_change_pct` Int16,
+    `gross_margin_pct` Float32,
+    `gross_margin_change_bps` Int32,
+    `net_income_m` Int32,
+    `net_income_change_pct` Int16,
+    `diluted_eps` Float32,
+    `eps_change_pct` Int16,
+    `inventories_m` Int32,
+    `inventory_change_pct` Int16,
+    `cash_and_short_investments_m` Int32
+
+ENGINE "MergeTree"
+ENGINE_SORTING_KEY "period_end"
+# ENGINE_TTL "timestamp + toIntervalDay(60)"
+# Learn more at https://www.tinybird.co/docs/forward/dev-reference/datafiles/datasource-files

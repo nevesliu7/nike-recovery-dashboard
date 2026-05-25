@@ -1,0 +1,13 @@
+TOKEN dashboard_read READ
+DESCRIPTION >
+    Nike Instagram monthly follower endpoint for the dashboard.
+
+NODE result
+SQL >
+    SELECT
+        month,
+        followers
+    FROM nike_instagram_followers
+    ORDER BY month
+
+TYPE ENDPOINT

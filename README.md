@@ -44,8 +44,12 @@ The app reads from `services/data_client.py`. By default it uses local CSV files
 |   |-- nike_quarterly_metrics.csv
 |   |-- nike_social_snapshot.csv
 |   `-- nke_stock_prices.csv
+|-- datasources/
+|   `-- Tinybird .datasource files
 |-- docs/
 |   `-- path_c_architecture.md
+|-- pipes/
+|   `-- Tinybird .pipe endpoint files
 |-- services/
 |   |-- __init__.py
 |   `-- data_client.py
@@ -88,7 +92,7 @@ python3 scripts/check_api_backend.py
 
 ```text
 DATA_BACKEND=tinybird
-TINYBIRD_API_BASE=https://api.tinybird.co
+TINYBIRD_API_BASE=https://api.us-east.tinybird.co
 TINYBIRD_TOKEN=<Tinybird read token>
 REQUIRE_TINYBIRD=true
 ```

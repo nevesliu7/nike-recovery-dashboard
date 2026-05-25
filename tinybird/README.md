@@ -39,7 +39,7 @@ Use these values for a full Path C deployment:
 
 ```text
 DATA_BACKEND=tinybird
-TINYBIRD_API_BASE=https://api.tinybird.co
+TINYBIRD_API_BASE=https://api.us-east.tinybird.co
 TINYBIRD_TOKEN=<read token for published pipes>
 REQUIRE_TINYBIRD=true
 ```

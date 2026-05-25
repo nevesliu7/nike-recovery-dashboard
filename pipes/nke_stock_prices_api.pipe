@@ -1,0 +1,19 @@
+TOKEN dashboard_read READ
+DESCRIPTION >
+    NKE daily stock price endpoint for the dashboard.
+
+NODE result
+SQL >
+    SELECT
+        date,
+        open,
+        high,
+        low,
+        close,
+        adj_close,
+        volume,
+        daily_return_pct
+    FROM nke_stock_prices
+    ORDER BY date
+
+TYPE ENDPOINT
