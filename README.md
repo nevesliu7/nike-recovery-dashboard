@@ -2,6 +2,8 @@
 
 This project is a Path C API-backed data product. The Dash and Plotly interface analyzes Nike's FY2026 Q1-Q3 public performance, while the data layer can be served through Tinybird SQL Pipe endpoints or through the bundled local CSV fallback.
 
+Live Render app: https://nike-recovery-dashboard.onrender.com
+
 ## Research Question
 
 Is Nike's FY2026 recovery broad-based, or is the rebound concentrated in specific regions and channels while other parts of the brand remain under pressure?

@@ -1,6 +1,6 @@
 # Nike Global Brand Recovery Dashboard
 
-GitHub Repository: https://github.com/nevesliu7/nike-recovery-dashboard. Render URL: paste final hosted app URL here after deployment.
+GitHub Repository: https://github.com/nevesliu7/nike-recovery-dashboard. Render URL: https://nike-recovery-dashboard.onrender.com.
 
 ## Data Source and Project Motivation
 
