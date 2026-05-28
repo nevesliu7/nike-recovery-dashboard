@@ -17,6 +17,8 @@ Live Render app: https://nike-recovery-dashboard.onrender.com
 
 ```text
 .
+|-- .env.example
+|-- .gitignore
 |-- app.py
 |-- requirements.txt
 |-- README.md
@@ -26,6 +28,7 @@ Live Render app: https://nike-recovery-dashboard.onrender.com
 |-- assets/
 |   `-- style.css
 |-- data/
+|   |-- raw/
 |   |-- gdelt_nike_news_sentiment.csv
 |   |-- nike_divisional_revenue.csv
 |   |-- nike_instagram_followers.csv
@@ -33,19 +36,27 @@ Live Render app: https://nike-recovery-dashboard.onrender.com
 |   |-- nike_social_snapshot.csv
 |   `-- nke_stock_prices.csv
 |-- datasources/
-|   `-- Tinybird .datasource files
+|   |-- nike_divisional_revenue.datasource
+|   |-- nike_instagram_followers.datasource
+|   |-- nike_news_sentiment.datasource
+|   |-- nike_quarterly_metrics.datasource
+|   |-- nike_social_snapshot.datasource
+|   `-- nke_stock_prices.datasource
 |-- docs/
 |-- pipes/
-|   `-- Tinybird .pipe endpoint files
+|   |-- nike_divisional_revenue_api.pipe
+|   |-- nike_instagram_followers_api.pipe
+|   |-- nike_news_sentiment_api.pipe
+|   |-- nike_quarterly_metrics_api.pipe
+|   |-- nike_social_snapshot_api.pipe
+|   `-- nke_stock_prices_api.pipe
 |-- services/
 |   |-- __init__.py
 |   `-- data_client.py
 |-- scripts/
 |   |-- check_api_backend.py
-|   |-- make_writeup_pdf.py
 |   `-- refresh_data.py
 `-- tinybird/
-    |-- README.md
     `-- pipes/
 ```
 
@@ -86,10 +97,4 @@ GDELT rate-limits requests, so the script intentionally waits between API calls.
 - AltIndex public Nike Instagram follower statistics.
 - Social Blade public Nike TikTok profile snapshot.
 - HunterTuber public Nike YouTube channel snapshot.
-
-## Collaboration Statement
-
-- Mike: used Claude to research the Tinybird and GDELT integration, and wrote the README. 
-- Neves: used ChatGPT to research the Render deployment and the Yahoo Finance API integration, and defined the research questions.
-
-As a co-effort, we spent one day drawing the layout of the dashboard, deciding on what charts we were going to use, and researching other data sources (GDELT, Yahoo Finance API) that can make this dashboard more insightful. We then spent another day coding together, using Codex as the debugging agent, with a tuned MD to stop it from moving on automatically without our permission, so we could actually learn from the session instead of just accepting the output.
+- Public Nike-related business, consumer, and social media research from Google, TikTok, and Instagram, used to help frame the research question and interpret Nike's recent recovery more cautiously.
